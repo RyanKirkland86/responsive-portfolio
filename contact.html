@@ -11,28 +11,28 @@
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <!--Added navbar from Bootstrap-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-info">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-          <h1>Ryan Kirkland</h1></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">           
-<!--Customized buttons, making sure to keep the deadlink for current page-->
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-          <a class="nav-link" href="index.html">About</a>
-        </div>
-      </div>
-    </div>
-</nav>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <h1>Ryan Kirkland</h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">           
+    <!--Customized buttons, making sure to keep the deadlink for current page-->
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <a class="nav-link" href="index.html">About</a>
+            </div>
+        </div>
+        </div>
+    </nav>
     <br>
     <div class="container">
         <div class="row">
-            <div class="col col-sm-11">
+            <div class="col col-sm-11 col-md-9 col-lg-7">
                 <div class="card">
                     <div class="card-body">
                     <h2>Contact</h2>
@@ -51,6 +51,8 @@
                                     <input type="text" class="form-control input-lg" id="InputMessageLg" placeholder="Message">
                                 </div>
                             </form>
+                            <br>
+                            <button type="button" class="btn btn-info">Submit</button>
                         </div>
                     </div>
                 </div>
