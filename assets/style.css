@@ -1,22 +1,32 @@
 /* Added an open-sourced repeating background image for all pages */
-
 body {
     background-image: url(https://background-tiles.com/overview/blue/patterns/large/1058.png);
     background-repeat: repeat;
 }
 
+/* Images needed to have static padding and margins as they responded to different screen size perameters */
 img {
     padding: 10px;
     margin: 10px;
 }
 
+/* Set the container to have an auto margin and padding of 30px */
 .container {
-    padding: 10px;
-    margin: 10px;
+    padding: 30px auto;
+    margin: 30px auto;
 }
 
+/* Defined the headshot size as fixed across all screen sizes */
 #HeadShot {
     height: 350px;
     width: 280px;
     float: left;
+}
+
+/* Reset parameters for padding and margin when the screen is set to xs/mobile screens */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px 0px 10px 0px;
+        margin: 10px 0px 10px 0px;
+    }
 }

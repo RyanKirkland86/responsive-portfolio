@@ -7,13 +7,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     
-    <!--Added style sheet link-->
+<!--Added style sheet link-->
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 <body>
 <!--Added navbar from Bootstrap-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-info">
     <div class="container-fluid">
+<!--Set header link to the root-->
       <a class="navbar-brand" href="index.html">
           <h1>Ryan Kirkland</h1></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,14 +30,19 @@
       </div>
     </div>
   </nav>
+<!--Added everything else in the body in a separate container-->
+<!--Used the Bootstrap Grid system to define spaces within the container-->
     <div class="container">
       <div class="row">
           <div class="col-sm-11">
+<!--Used the card component from BootStrap-->
               <div class="card">
                   <div class="card-body">
+<!--Used a card header to separate and define this subclass-->
                     <div class="card-header">
                       <h1>Portfolio</h1>
                     </div>
+<!--Separated this into another row to have it's children respond dynamically as the screen size changes. When the screen hits 992px, the images will split into two columns-->
                       <div class="row">
                         <div class="col-lg-6">
                           <img src="https://via.placeholder.com/350" class="img-responsive" alt="Placeholder350">
