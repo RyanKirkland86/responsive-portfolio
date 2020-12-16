@@ -1,3 +1,10 @@
+/* Added an open-sourced repeating background image for all pages */
+
+body {
+    background-image: url(https://background-tiles.com/overview/blue/patterns/large/1058.png);
+    background-repeat: repeat;
+}
+
 @media screen and (min-width: 992px){
     .navbar-nav{
         align: right;
