@@ -5,8 +5,3 @@ body {
     background-repeat: repeat;
 }
 
-@media screen and (min-width: 992px){
-    .navbar-nav{
-        align: right;
-    }
-}
